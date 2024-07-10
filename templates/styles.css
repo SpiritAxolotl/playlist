@@ -1,0 +1,68 @@
+:root {
+  --text: #e1e1e1;
+  --background: #000000;
+  --primary: #82fbfd;
+  --secondary: #033ca3;
+  --accent: #2355fb;
+  --accent-subtext: #6e6e6e;
+}
+
+body, html {
+  color: var(--text);
+  background-color: var(--background);
+  font-family: "Instrument Sans";
+}
+
+body {
+  display: flex;
+  align-content: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+input {
+  background: none;
+  width: 100%;
+  color: var(--text);
+  border: 0;
+  outline: none;
+  border-bottom: 0.1rem solid var(--accent-subtext);
+  font-family: "Noto Sans Mono", "Consolas", "SF Mono", monospace;
+}
+
+#download-area-top {
+  display: flex;
+  width: 40rem;
+}
+
+svg {
+  padding: 0.2rem;
+  border-bottom: 0.1rem solid var(--accent-subtext);
+  font-family: "Noto Sans Mono", "Consolas", "SF Mono", monospace;
+  color: var(--accent-subtext);
+  width: 20px;
+}
+
+button {
+  color: var(--text);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 1rem;
+  letter-spacing: -0.35rem;
+  font-weight: 400 !important;
+  font-family: "Noto Sans Mono", "Consolas", "SF Mono", monospace;
+  font-size: 1.8rem;
+}
+
+/* span {
+  position: absolute;
+  top: 100%;
+} */
